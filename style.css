@@ -56,6 +56,11 @@ h2 {
   vertical-align: middle;
 }
 
+small {
+  font-size: 22px;
+  vertical-align: middle;
+}
+
 footer {
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
