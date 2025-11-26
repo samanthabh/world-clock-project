@@ -27,6 +27,18 @@ function updateTime() {
       "H:mm:ss [<small>]A[</small>]"
     );
   }
+
+  let osloElement = document.querySelector("#oslo");
+
+  if (osloElement) {
+    let osloDateElement = osloElement.querySelector(".date");
+    let osloTimeElement = osloElement.querySelector(".time");
+
+    let osloTime = moment().tz("Europe/Oslo");
+
+    osloDateElement.innerHTML = osloTime.format("dddd Do MMMM YYYY");
+    osloTimeElement.innerHTML = osloTime.format("H:mm:ss [<small>]A[</small>]");
+  }
 }
 
 function updateCity(event) {
