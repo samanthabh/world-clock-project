@@ -51,6 +51,7 @@ function updateCity(event) {
 
   let homepageElement = document.querySelector("#homepage");
   homepageElement.innerHTML = `<a href="https://sbh-world-clock.netlify.app/">Back to homepage</a>`;
+  homepageElement.classList.add("homepage");
 }
 
 setInterval(updateTime, 1000);

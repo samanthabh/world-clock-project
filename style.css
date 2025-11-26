@@ -61,6 +61,11 @@ small {
   vertical-align: middle;
 }
 
+.homepage {
+  border-top: rgba(0, 0, 0, 0.2) dashed;
+  padding-top: 20px;
+}
+
 footer {
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
